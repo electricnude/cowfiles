@@ -1,0 +1,27 @@
+#
+# A board man
+# Copyright 2022 electricnude <electricnude@gmail.com>
+# Released under the same terms as cowsay
+#
+# - Ooops, this cow using header which be printed before caller print...
+# - board man via: https://www.trussel.com/f_char.htm
+
+$eye = chop($eyes);
+
+$the_header = <<"EOH"
+                 ,,,
+                (${eye} ${eye})
+           oOO   ( )   OOo. 
+EOH
+;
+
+print $the_header;
+
+$the_cow = <<"EOC";
+          .oooO      Oooo.
+          (   )      (   )
+           \\ (        ) /
+            \\_)      (_/
+                     
+EOC
+
